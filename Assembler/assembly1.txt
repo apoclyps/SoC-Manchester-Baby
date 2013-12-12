@@ -1,0 +1,9 @@
+START: LDN VAR1  ; Load in variable 1
+       SUB VAR2  ; subtract variable 2
+       STO TOTAL ; stores total;
+       LDN TOTAL ; increments value of total by 1
+       STO TOTAL ; stores value of total
+STOP :           ; stops the program
+VAR1 : 127       ; stores value 127
+VAR2 : 256       ; stores value 256
+TOTAL: 0         ; stores sum value
